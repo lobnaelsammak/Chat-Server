@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: black;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#chat-messages {
+    min-height: 10vh;
+    height: 60vh;
+    width: 100%;
+    overflow-y: scroll;
+
+}
+
+.nav-wrapper {
+    background-color: #FFFFFF !important;
+    font-size: 14px;
+    font-weight: bold;
+  }
